@@ -624,7 +624,7 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 1158px;
+  min-height: 1188px;
 }
 
 .u-section-3 .u-text-1 {
@@ -642,9 +642,13 @@
   padding: 0;
 }
 
-.u-section-3 .u-list-1 {
+.u-section-3 .u-custom-html-1 {
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
+}
+
+.u-section-3 .u-list-1 {
+  margin: 20px 0 60px;
 }
 
 .u-section-3 .u-repeater-1 {
@@ -912,6 +916,11 @@
   .u-section-3 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .u-section-3 .u-list-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
